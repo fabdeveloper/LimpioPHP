@@ -1,0 +1,48 @@
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Datos de usuario</title>
+</head>
+<body>
+	<form action="saveUserData.php" method="post">
+		<div>
+			<q>Email: </q><input name="email" value="*" required="required">
+			<q>Password: </q><input name="password" value="*" required="required"><br><br>			
+		</div>	
+		<div>
+			<q>Nombre: </q><input name="nombre" value="*" required="required">
+			<q>Apellido (1): </q><input name="apellido1" value="*" required="required">
+			<q>Apellido (2): </q><input><br>
+			<q>Telefono: </q><input name="telefono" value="*" required="required"><br>			
+		</div>
+		<div>
+			<q>Direccion: </q><input name="direccion" value="" style="width: 842px; "><br>
+			<q>Poblacion: </q><input name="poblacion" value="">
+			<q>Provincia: </q><input name="provincia" value="">
+			<q>País: </q><input name="pais" value="">
+			<q>Código Postal: </q><input name="codigo_postal" value=""><br>
+		</div>
+		<div>
+			<q>Número de documento: </q><input name="numero_documento" value="">
+			<q>Tipo de documento: </q><select name="tipo_documento"><option value="DNI">DNI</option><option value="NIE">NIE</option><option value="Pasaporte">Pasaporte</option><option value="Otro">Otro</option></select><br>
+		</div>
+		<div>
+			<q>IBAN: </q><input name="iban" value="">
+		</div>
+
+
+		<input type="submit">
+
+
+
+
+
+
+	</form>
+</body>
+</html>
